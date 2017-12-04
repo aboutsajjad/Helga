@@ -7,14 +7,34 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		23F395477698DC8FEC97DBE2 /* Pods_Helga.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8425F3BFCB15FF65D819AC31 /* Pods_Helga.framework */; };
+		C44C782B1FBD8B23002C6989 /* sadr2.gpx in Resources */ = {isa = PBXBuildFile; fileRef = C44C782A1FBD8B23002C6989 /* sadr2.gpx */; };
+		C44C782D1FBD8E5D002C6989 /* sadr3.gpx in Resources */ = {isa = PBXBuildFile; fileRef = C44C782C1FBD8E5D002C6989 /* sadr3.gpx */; };
+		C44E7A8D1FD575FE007EA8F6 /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C44E7A8C1FD575FE007EA8F6 /* LocationManager.swift */; };
+		C49BADC11FD3E93600625E68 /* test.gpx in Resources */ = {isa = PBXBuildFile; fileRef = C49BADC01FD3E93600625E68 /* test.gpx */; };
+		C4ACFA311FB5C63F008FD08D /* kamranie.gpx in Resources */ = {isa = PBXBuildFile; fileRef = C4ACFA301FB5C63F008FD08D /* kamranie.gpx */; };
+		C4B20A631FBD880000AEF5D4 /* sadr.gpx in Resources */ = {isa = PBXBuildFile; fileRef = C4B20A621FBD880000AEF5D4 /* sadr.gpx */; };
 		C4DB52DB1FB382DE002B95E1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4DB52DA1FB382DE002B95E1 /* AppDelegate.swift */; };
 		C4DB52DD1FB382DE002B95E1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4DB52DC1FB382DE002B95E1 /* ViewController.swift */; };
 		C4DB52E01FB382DE002B95E1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C4DB52DE1FB382DE002B95E1 /* Main.storyboard */; };
 		C4DB52E21FB382DE002B95E1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C4DB52E11FB382DE002B95E1 /* Assets.xcassets */; };
 		C4DB52E51FB382DE002B95E1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C4DB52E31FB382DE002B95E1 /* LaunchScreen.storyboard */; };
+		C4E1CF5D1FB44E7F000D7E2E /* mShimi.gpx in Resources */ = {isa = PBXBuildFile; fileRef = C4E1CF5C1FB44E7F000D7E2E /* mShimi.gpx */; };
+		C4E58B571FD2EB5200517563 /* metro.gpx in Resources */ = {isa = PBXBuildFile; fileRef = C4E58B561FD2EB5200517563 /* metro.gpx */; };
+		C4E58B591FD2F25A00517563 /* metro2.gpx in Resources */ = {isa = PBXBuildFile; fileRef = C4E58B581FD2F25A00517563 /* metro2.gpx */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0FF3CE24EE5BD8F42E9EF0DC /* Pods-Helga.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Helga.release.xcconfig"; path = "Pods/Target Support Files/Pods-Helga/Pods-Helga.release.xcconfig"; sourceTree = "<group>"; };
+		8425F3BFCB15FF65D819AC31 /* Pods_Helga.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Helga.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8DF5BD8F50FFFC020EC5457D /* Pods-Helga.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Helga.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Helga/Pods-Helga.debug.xcconfig"; sourceTree = "<group>"; };
+		C44C782A1FBD8B23002C6989 /* sadr2.gpx */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = sadr2.gpx; sourceTree = "<group>"; };
+		C44C782C1FBD8E5D002C6989 /* sadr3.gpx */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = sadr3.gpx; sourceTree = "<group>"; };
+		C44E7A8C1FD575FE007EA8F6 /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
+		C49BADC01FD3E93600625E68 /* test.gpx */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = test.gpx; sourceTree = "<group>"; };
+		C4ACFA301FB5C63F008FD08D /* kamranie.gpx */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = kamranie.gpx; sourceTree = "<group>"; };
+		C4ACFA321FB6C821008FD08D /* olumpaye.gpx */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = olumpaye.gpx; sourceTree = "<group>"; };
+		C4B20A621FBD880000AEF5D4 /* sadr.gpx */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = sadr.gpx; sourceTree = "<group>"; };
 		C4DB52D71FB382DE002B95E1 /* Helga.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Helga.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C4DB52DA1FB382DE002B95E1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C4DB52DC1FB382DE002B95E1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +42,9 @@
 		C4DB52E11FB382DE002B95E1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C4DB52E41FB382DE002B95E1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C4DB52E61FB382DE002B95E1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C4E1CF5C1FB44E7F000D7E2E /* mShimi.gpx */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = mShimi.gpx; sourceTree = "<group>"; };
+		C4E58B561FD2EB5200517563 /* metro.gpx */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = metro.gpx; sourceTree = "<group>"; };
+		C4E58B581FD2F25A00517563 /* metro2.gpx */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = metro2.gpx; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +52,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				23F395477698DC8FEC97DBE2 /* Pods_Helga.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4F36C7E5A8CCC7692B4BF0BD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8DF5BD8F50FFFC020EC5457D /* Pods-Helga.debug.xcconfig */,
+				0FF3CE24EE5BD8F42E9EF0DC /* Pods-Helga.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		C4DB52CE1FB382DE002B95E1 = {
 			isa = PBXGroup;
 			children = (
+				C4E58B561FD2EB5200517563 /* metro.gpx */,
+				C4E58B581FD2F25A00517563 /* metro2.gpx */,
+				C49BADC01FD3E93600625E68 /* test.gpx */,
+				C4ACFA321FB6C821008FD08D /* olumpaye.gpx */,
+				C4B20A621FBD880000AEF5D4 /* sadr.gpx */,
+				C44C782A1FBD8B23002C6989 /* sadr2.gpx */,
+				C44C782C1FBD8E5D002C6989 /* sadr3.gpx */,
 				C4DB52D91FB382DE002B95E1 /* Helga */,
 				C4DB52D81FB382DE002B95E1 /* Products */,
+				4F36C7E5A8CCC7692B4BF0BD /* Pods */,
+				E0A3B33B937468128909CED8 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,12 +98,23 @@
 			children = (
 				C4DB52DA1FB382DE002B95E1 /* AppDelegate.swift */,
 				C4DB52DC1FB382DE002B95E1 /* ViewController.swift */,
+				C4E1CF5C1FB44E7F000D7E2E /* mShimi.gpx */,
+				C4ACFA301FB5C63F008FD08D /* kamranie.gpx */,
 				C4DB52DE1FB382DE002B95E1 /* Main.storyboard */,
 				C4DB52E11FB382DE002B95E1 /* Assets.xcassets */,
 				C4DB52E31FB382DE002B95E1 /* LaunchScreen.storyboard */,
 				C4DB52E61FB382DE002B95E1 /* Info.plist */,
+				C44E7A8C1FD575FE007EA8F6 /* LocationManager.swift */,
 			);
 			path = Helga;
+			sourceTree = "<group>";
+		};
+		E0A3B33B937468128909CED8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8425F3BFCB15FF65D819AC31 /* Pods_Helga.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +124,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C4DB52E91FB382DE002B95E1 /* Build configuration list for PBXNativeTarget "Helga" */;
 			buildPhases = (
+				D924F21DD8C103B80C72FA21 /* [CP] Check Pods Manifest.lock */,
 				C4DB52D31FB382DE002B95E1 /* Sources */,
 				C4DB52D41FB382DE002B95E1 /* Frameworks */,
 				C4DB52D51FB382DE002B95E1 /* Resources */,
+				93C5A47DC82964B00651D538 /* [CP] Embed Pods Frameworks */,
+				636D6A1CCBD2E7EF99F5D2DF /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -97,6 +153,11 @@
 					C4DB52D61FB382DE002B95E1 = {
 						CreatedOnToolsVersion = 9.1;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -123,13 +184,72 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C4E58B591FD2F25A00517563 /* metro2.gpx in Resources */,
+				C4E58B571FD2EB5200517563 /* metro.gpx in Resources */,
 				C4DB52E51FB382DE002B95E1 /* LaunchScreen.storyboard in Resources */,
+				C44C782B1FBD8B23002C6989 /* sadr2.gpx in Resources */,
+				C44C782D1FBD8E5D002C6989 /* sadr3.gpx in Resources */,
 				C4DB52E21FB382DE002B95E1 /* Assets.xcassets in Resources */,
+				C4ACFA311FB5C63F008FD08D /* kamranie.gpx in Resources */,
+				C49BADC11FD3E93600625E68 /* test.gpx in Resources */,
+				C4E1CF5D1FB44E7F000D7E2E /* mShimi.gpx in Resources */,
 				C4DB52E01FB382DE002B95E1 /* Main.storyboard in Resources */,
+				C4B20A631FBD880000AEF5D4 /* sadr.gpx in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		636D6A1CCBD2E7EF99F5D2DF /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Helga/Pods-Helga-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		93C5A47DC82964B00651D538 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Helga/Pods-Helga-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D924F21DD8C103B80C72FA21 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Helga-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		C4DB52D31FB382DE002B95E1 /* Sources */ = {
@@ -138,6 +258,7 @@
 			files = (
 				C4DB52DD1FB382DE002B95E1 /* ViewController.swift in Sources */,
 				C4DB52DB1FB382DE002B95E1 /* AppDelegate.swift in Sources */,
+				C44E7A8D1FD575FE007EA8F6 /* LocationManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,13 +393,18 @@
 		};
 		C4DB52EA1FB382DE002B95E1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8DF5BD8F50FFFC020EC5457D /* Pods-Helga.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NUM25XX226;
 				INFOPLIST_FILE = Helga/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = co.rishe.Helga;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -286,13 +412,18 @@
 		};
 		C4DB52EB1FB382DE002B95E1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0FF3CE24EE5BD8F42E9EF0DC /* Pods-Helga.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NUM25XX226;
 				INFOPLIST_FILE = Helga/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = co.rishe.Helga;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
