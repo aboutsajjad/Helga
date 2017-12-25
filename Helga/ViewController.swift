@@ -7,16 +7,13 @@
 //
 
 import UIKit
-import CoreLocation
 
-class ViewController: UIViewController, CLLocationManagerDelegate {
-
-    var locationManager: CLLocationManager!
+class ViewController: UIViewController {
     
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        
     }
 
     override func didReceiveMemoryWarning() {
@@ -25,29 +22,12 @@ class ViewController: UIViewController, CLLocationManagerDelegate {
     }
     
     override func viewDidAppear(_ animated: Bool) {
-        determineCurrentLocation()
+        //determineCurrentLocation()
     }
     
-    func determineCurrentLocation()
-    {
-        locationManager = CLLocationManager()
-        locationManager.delegate = self
-        locationManager.desiredAccuracy = kCLLocationAccuracyBest
-        locationManager.requestAlwaysAuthorization()
-        locationManager.pausesLocationUpdatesAutomatically = false
-        locationManager.allowsBackgroundLocationUpdates = true
-        
-        if CLLocationManager.locationServicesEnabled() {
-            //locationManager.startUpdatingHeading()
-            locationManager.startUpdatingLocation()
-        }
-    }
     
-
-    func locationManager(_ manager: CLLocationManager, didUpdateLocations locations: [CLLocation]) {
-        manager.startUpdatingLocation()
-        print(locations[0])
-    }
 
 }
+
+
 

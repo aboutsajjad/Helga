@@ -8,11 +8,13 @@
 
 import UIKit
 import CoreLocation
+import SwiftyPlistManager
 
 class LocationManager: NSObject, CLLocationManagerDelegate {
     static let shared = LocationManager()
     var alocationmanager: CLLocationManager
-    
+    var glocations: [CLLocation] = []
+    var terminated = false
     override init() {
         alocationmanager = CLLocationManager()
         super.init()
@@ -26,6 +28,7 @@ class LocationManager: NSObject, CLLocationManagerDelegate {
     
     func startmonitoring() {
         alocationmanager.startMonitoringSignificantLocationChanges()
+        
     }
     
     func restartmonitoring() {
@@ -33,9 +36,39 @@ class LocationManager: NSObject, CLLocationManagerDelegate {
         alocationmanager.startMonitoringSignificantLocationChanges()
     }
     
+    func saveFromBackground()  {
+        terminated = true
+    }
+    
     func locationManager(_ manager: CLLocationManager, didUpdateLocations locations: [CLLocation]) {
-        print(UIApplication.shared.applicationState)
-        print(locations[0])
+        glocations = []
+        glocations = locations
+        //print(UIApplication.shared.applicationState)
+        for location in locations {
+            print(location)
+            //write(location: location)
+        }
+    }
+    
+    func write(location: CLLocation) {
+        let currentDateTime = Date()
+        let formatter = DateFormatter()
+        formatter.timeStyle = .medium
+        formatter.dateStyle = .long
+        
+        let value = "\(location.coordinate.latitude) - \(location.coordinate.longitude) - \(terminated)"
+        
+        SwiftyPlistManager.shared.addNew(value, key: "\(formatter.string(from: currentDateTime))", toPlistWithName: "Data") { (err) in
+            if err == nil {
+                print("Value successfully added into plist.")
+            }
+        }
+        
+        SwiftyPlistManager.shared.save(value, forKey: "\(formatter.string(from: currentDateTime))", toPlistWithName: "Data") { (err) in
+            if err == nil {
+                print("Value successfully saved into plist.")
+            }
+        }
     }
     
 }

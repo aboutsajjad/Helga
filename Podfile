@@ -6,5 +6,6 @@ target 'Helga' do
   use_frameworks!
 
   # Pods for Helga
-  pod 'IGListKit', '~> 3.0'
+  #pod 'IGListKit', '~> 3.0'
+  pod 'SwiftyPlistManager'
 end
