@@ -8,13 +8,14 @@
 
 import UIKit
 import CoreLocation
-import SwiftyPlistManager
+import SwiftyJSON
 
 class LocationManager: NSObject, CLLocationManagerDelegate {
     static let shared = LocationManager()
     var alocationmanager: CLLocationManager
     var glocations: [CLLocation] = []
     var terminated = false
+    var locations: [JSON] = []
     override init() {
         alocationmanager = CLLocationManager()
         super.init()
@@ -56,19 +57,15 @@ class LocationManager: NSObject, CLLocationManagerDelegate {
         formatter.timeStyle = .medium
         formatter.dateStyle = .long
         
-        let value = "\(location.coordinate.latitude) - \(location.coordinate.longitude) - \(terminated)"
+        var json = JSON()
+        json["latitude"].double =  location.coordinate.latitude
+        json["longitude"].double =  location.coordinate.longitude
+        json["timestamp"].string = "\(location.timestamp)"
+        locations.append(json)
+        print(locations.count)
         
-        SwiftyPlistManager.shared.addNew(value, key: "\(formatter.string(from: currentDateTime))", toPlistWithName: "Data") { (err) in
-            if err == nil {
-                print("Value successfully added into plist.")
-            }
-        }
         
-        SwiftyPlistManager.shared.save(value, forKey: "\(formatter.string(from: currentDateTime))", toPlistWithName: "Data") { (err) in
-            if err == nil {
-                print("Value successfully saved into plist.")
-            }
-        }
+        
     }
     
 }
