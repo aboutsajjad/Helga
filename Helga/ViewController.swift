@@ -7,12 +7,16 @@
 //
 
 import UIKit
-import SwiftyJSON
+import RealmSwift
+
 class ViewController: UIViewController {
     
+    private var locations: Results<Location>!
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        let realm = try! Realm()
+        locations = realm.objects(Location.self)
         
     }
 
@@ -22,10 +26,9 @@ class ViewController: UIViewController {
     }
     
     override func viewDidAppear(_ animated: Bool) {
-        //determineCurrentLocation()
+        super.viewDidAppear(animated)
+        print(locations.count)
     }
-    
-    
 
 }
 

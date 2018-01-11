@@ -11,8 +11,10 @@
 		C443435F1FD81641000A6472 /* brtTomosala.gpx in Resources */ = {isa = PBXBuildFile; fileRef = C443435E1FD81641000A6472 /* brtTomosala.gpx */; };
 		C44E7A8D1FD575FE007EA8F6 /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C44E7A8C1FD575FE007EA8F6 /* LocationManager.swift */; };
 		C47B347B1FD820B700BFDED2 /* olumpayeToBrt.gpx in Resources */ = {isa = PBXBuildFile; fileRef = C47B347A1FD820B700BFDED2 /* olumpayeToBrt.gpx */; };
-		C47B347D1FD8239500BFDED2 /* SeyyedKhandanToBrt.gpx in Resources */ = {isa = PBXBuildFile; fileRef = C47B347C1FD8239500BFDED2 /* SeyyedKhandanToBrt.gpx */; };
-		C483B22D1FD8256E003D3D1B /* brtTomShimi.gpx in Resources */ = {isa = PBXBuildFile; fileRef = C483B22C1FD8256E003D3D1B /* brtTomShimi.gpx */; };
+		C47B347D1FD8239500BFDED2 /* seyyedKhandan_to_brt.gpx in Resources */ = {isa = PBXBuildFile; fileRef = C47B347C1FD8239500BFDED2 /* seyyedKhandan_to_brt.gpx */; };
+		C483B22D1FD8256E003D3D1B /* brt_to_mShimi.gpx in Resources */ = {isa = PBXBuildFile; fileRef = C483B22C1FD8256E003D3D1B /* brt_to_mShimi.gpx */; };
+		C4A026AD2007CB0A00972316 /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4A026AC2007CB0A00972316 /* Location.swift */; };
+		C4CB7E152000122400ACD49D /* snapSeyedToMshimi.gpx in Resources */ = {isa = PBXBuildFile; fileRef = C4CB7E142000122400ACD49D /* snapSeyedToMshimi.gpx */; };
 		C4D3F6291FE4C07800936401 /* syedkhandaTomShimi.gpx in Resources */ = {isa = PBXBuildFile; fileRef = C4D3F6281FE4C07800936401 /* syedkhandaTomShimi.gpx */; };
 		C4DB52DB1FB382DE002B95E1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4DB52DA1FB382DE002B95E1 /* AppDelegate.swift */; };
 		C4DB52DD1FB382DE002B95E1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4DB52DC1FB382DE002B95E1 /* ViewController.swift */; };
@@ -32,9 +34,11 @@
 		C443435E1FD81641000A6472 /* brtTomosala.gpx */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = brtTomosala.gpx; sourceTree = "<group>"; };
 		C44E7A8C1FD575FE007EA8F6 /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
 		C47B347A1FD820B700BFDED2 /* olumpayeToBrt.gpx */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = olumpayeToBrt.gpx; sourceTree = "<group>"; };
-		C47B347C1FD8239500BFDED2 /* SeyyedKhandanToBrt.gpx */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = SeyyedKhandanToBrt.gpx; sourceTree = "<group>"; };
-		C483B22C1FD8256E003D3D1B /* brtTomShimi.gpx */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = brtTomShimi.gpx; sourceTree = "<group>"; };
+		C47B347C1FD8239500BFDED2 /* seyyedKhandan_to_brt.gpx */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = seyyedKhandan_to_brt.gpx; sourceTree = "<group>"; };
+		C483B22C1FD8256E003D3D1B /* brt_to_mShimi.gpx */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = brt_to_mShimi.gpx; sourceTree = "<group>"; };
+		C4A026AC2007CB0A00972316 /* Location.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
 		C4ACFA321FB6C821008FD08D /* olumpaye.gpx */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = olumpaye.gpx; sourceTree = "<group>"; };
+		C4CB7E142000122400ACD49D /* snapSeyedToMshimi.gpx */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = snapSeyedToMshimi.gpx; sourceTree = "<group>"; };
 		C4D3F6281FE4C07800936401 /* syedkhandaTomShimi.gpx */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = syedkhandaTomShimi.gpx; sourceTree = "<group>"; };
 		C4DB52D71FB382DE002B95E1 /* Helga.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Helga.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C4DB52DA1FB382DE002B95E1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -75,21 +79,31 @@
 			children = (
 				C4F580AB1FDD74D10072D3D1 /* slefyas.gpx */,
 				C4E1CF5C1FB44E7F000D7E2E /* mShimi.gpx */,
-				C47B347C1FD8239500BFDED2 /* SeyyedKhandanToBrt.gpx */,
-				C483B22C1FD8256E003D3D1B /* brtTomShimi.gpx */,
+				C47B347C1FD8239500BFDED2 /* seyyedKhandan_to_brt.gpx */,
+				C483B22C1FD8256E003D3D1B /* brt_to_mShimi.gpx */,
 				C4E58B561FD2EB5200517563 /* metroMosala.gpx */,
 				C4ACFA321FB6C821008FD08D /* olumpaye.gpx */,
 				C443435E1FD81641000A6472 /* brtTomosala.gpx */,
 				C47B347A1FD820B700BFDED2 /* olumpayeToBrt.gpx */,
 				C4D3F6281FE4C07800936401 /* syedkhandaTomShimi.gpx */,
 				C4FA1A3E1FF0FCD2006927DF /* olumpayeToMosala.gpx */,
+				C4CB7E142000122400ACD49D /* snapSeyedToMshimi.gpx */,
 			);
 			name = GPX;
+			sourceTree = "<group>";
+		};
+		C4A026AB2007CAFB00972316 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				C4A026AC2007CB0A00972316 /* Location.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 		C4DB52CE1FB382DE002B95E1 = {
 			isa = PBXGroup;
 			children = (
+				C4A026AB2007CAFB00972316 /* Models */,
 				C44E7A901FD589C9007EA8F6 /* GPX */,
 				C4DB52D91FB382DE002B95E1 /* Helga */,
 				C4DB52D81FB382DE002B95E1 /* Products */,
@@ -197,8 +211,9 @@
 			files = (
 				C4E58B571FD2EB5200517563 /* metroMosala.gpx in Resources */,
 				C443435F1FD81641000A6472 /* brtTomosala.gpx in Resources */,
-				C483B22D1FD8256E003D3D1B /* brtTomShimi.gpx in Resources */,
-				C47B347D1FD8239500BFDED2 /* SeyyedKhandanToBrt.gpx in Resources */,
+				C483B22D1FD8256E003D3D1B /* brt_to_mShimi.gpx in Resources */,
+				C47B347D1FD8239500BFDED2 /* seyyedKhandan_to_brt.gpx in Resources */,
+				C4CB7E152000122400ACD49D /* snapSeyedToMshimi.gpx in Resources */,
 				C4F580AC1FDD74D10072D3D1 /* slefyas.gpx in Resources */,
 				C4DB52E51FB382DE002B95E1 /* LaunchScreen.storyboard in Resources */,
 				C4DB52E21FB382DE002B95E1 /* Assets.xcassets in Resources */,
@@ -235,11 +250,13 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-Helga/Pods-Helga-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+				"${BUILT_PRODUCTS_DIR}/Realm/Realm.framework",
+				"${BUILT_PRODUCTS_DIR}/RealmSwift/RealmSwift.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Realm.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RealmSwift.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -273,6 +290,7 @@
 			files = (
 				C4DB52DD1FB382DE002B95E1 /* ViewController.swift in Sources */,
 				C4DB52DB1FB382DE002B95E1 /* AppDelegate.swift in Sources */,
+				C4A026AD2007CB0A00972316 /* Location.swift in Sources */,
 				C44E7A8D1FD575FE007EA8F6 /* LocationManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -8,5 +8,7 @@ target 'Helga' do
   # Pods for Helga
   #pod 'IGListKit', '~> 3.0'
   #pod 'SwiftyPlistManager'
-  pod 'SwiftyJSON'
+  #pod 'SwiftyJSON'
+  pod 'RealmSwift'
+  #pod 'Parse'
 end

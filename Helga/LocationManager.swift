@@ -8,14 +8,16 @@
 
 import UIKit
 import CoreLocation
-import SwiftyJSON
+import RealmSwift
+
+
 
 class LocationManager: NSObject, CLLocationManagerDelegate {
     static let shared = LocationManager()
     var alocationmanager: CLLocationManager
     var glocations: [CLLocation] = []
-    var terminated = false
-    var locations: [JSON] = []
+    var significantLocationChanges = false
+    
     override init() {
         alocationmanager = CLLocationManager()
         super.init()
@@ -38,34 +40,30 @@ class LocationManager: NSObject, CLLocationManagerDelegate {
     }
     
     func saveFromBackground()  {
-        terminated = true
+        significantLocationChanges = true
     }
     
     func locationManager(_ manager: CLLocationManager, didUpdateLocations locations: [CLLocation]) {
         glocations = []
         glocations = locations
-        //print(UIApplication.shared.applicationState)
         for location in locations {
-            print(location)
+            //print(location)
             //write(location: location)
         }
     }
-    
+   
     func write(location: CLLocation) {
-        let currentDateTime = Date()
-        let formatter = DateFormatter()
-        formatter.timeStyle = .medium
-        formatter.dateStyle = .long
+        let takeout = Location()
+        takeout.latitude = location.coordinate.latitude
+        takeout.longitude = location.coordinate.longitude
+        takeout.time = DateFormatter.localizedString(from: Date(), dateStyle: .none, timeStyle: .long)
+        takeout.date = DateFormatter.localizedString(from: Date(), dateStyle: .long, timeStyle: .none)
+        takeout.timestamp = DateFormatter.localizedString(from: Date(), dateStyle: .medium, timeStyle: .medium)
         
-        var json = JSON()
-        json["latitude"].double =  location.coordinate.latitude
-        json["longitude"].double =  location.coordinate.longitude
-        json["timestamp"].string = "\(location.timestamp)"
-        locations.append(json)
-        print(locations.count)
-        
-        
-        
+        let realm = try! Realm()
+        try! realm.write {
+            realm.add(takeout)
+        }
     }
     
 }
