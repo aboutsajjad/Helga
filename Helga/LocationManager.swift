@@ -47,8 +47,8 @@ class LocationManager: NSObject, CLLocationManagerDelegate {
         glocations = []
         glocations = locations
         for location in locations {
-            //print(location)
-            //write(location: location)
+            print(location)
+            write(location: location)
         }
     }
    

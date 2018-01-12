@@ -28,9 +28,10 @@
 	<string>When in Use.</string>
 	<key>UIBackgroundModes</key>
 	<array>
-		<string>audio</string>
 		<string>location</string>
 	</array>
+	<key>UIFileSharingEnabled</key>
+	<true/>
 	<key>UILaunchStoryboardName</key>
 	<string>LaunchScreen</string>
 	<key>UIMainStoryboardFile</key>
@@ -52,7 +53,5 @@
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
-	<key>UIFileSharingEnabled</key>
-	<true/>
 </dict>
 </plist>
