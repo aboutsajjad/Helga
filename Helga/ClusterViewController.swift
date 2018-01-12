@@ -7,75 +7,55 @@
 //
 
 import UIKit
-import GoogleMaps
 import RealmSwift
+import MapKit
 
-class ClusterViewController: UIViewController, GMUClusterManagerDelegate, GMSMapViewDelegate  {
-
-    private var mapView: GMSMapView!
-    private var clusterManager: GMUClusterManager!
+class ClusterViewController: UIViewController, MKMapViewDelegate {
+    
+    @IBOutlet weak var mapView: MKMapView!
     
     var locations: Results<Location>! {
         let realm = try! Realm()
         return realm.objects(Location.self).sorted(byKeyPath: "timestamp", ascending: false)
     }
     
-    
-    let kCameraLatitude = 35.7955
-    let kCameraLongitude = 51.4433
-    
-    override func loadView() {
-        let camera = GMSCameraPosition.camera(withLatitude: kCameraLatitude,
-                                              longitude: kCameraLongitude, zoom: 10)
-        mapView = GMSMapView.map(withFrame: CGRect.zero, camera: camera)
-        mapView.settings.myLocationButton = true
-        mapView.isMyLocationEnabled = true
-        mapView.settings.compassButton = true
+    func setupUserTrackingButtonAndScaleView() {
+        mapView.showsUserLocation = true
         
-        self.view = mapView
+        let button = MKUserTrackingButton(mapView: mapView)
+        button.layer.backgroundColor = UIColor(white: 1, alpha: 0.8).cgColor
+        button.layer.borderColor = UIColor.white.cgColor
+        button.layer.borderWidth = 1
+        button.layer.cornerRadius = 5
+        button.translatesAutoresizingMaskIntoConstraints = false
+        view.addSubview(button)
+        
+        let scale = MKScaleView(mapView: mapView)
+        scale.legendAlignment = .trailing
+        scale.translatesAutoresizingMaskIntoConstraints = false
+        view.addSubview(scale)
+        
+        NSLayoutConstraint.activate([button.bottomAnchor.constraint(equalTo: view.bottomAnchor, constant: -10),
+                                     button.trailingAnchor.constraint(equalTo: view.trailingAnchor, constant: -10),
+                                     scale.trailingAnchor.constraint(equalTo: button.leadingAnchor, constant: -10),
+                                     scale.centerYAnchor.constraint(equalTo: button.centerYAnchor)])
+    }
+    
+    
+    
+    func loadDataForMapRegionAndBikes() {
+        let points: [MKPointAnnotation] = locations.map { location -> MKPointAnnotation in
+            let bike = MKPointAnnotation()
+            bike.coordinate = CLLocationCoordinate2DMake(location.latitude, location.longitude)
+            return bike
+        }
+         mapView.addAnnotations(points)
     }
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-        let iconGenerator = GMUDefaultClusterIconGenerator()
-        let algorithm = GMUNonHierarchicalDistanceBasedAlgorithm()
-        let renderer = GMUDefaultClusterRenderer(mapView: mapView,
-                                                 clusterIconGenerator: iconGenerator)
-        clusterManager = GMUClusterManager(map: mapView, algorithm: algorithm,
-                                           renderer: renderer)
-        
-        addClusterItems()
-        
-        clusterManager.cluster()
-        clusterManager.setDelegate(self, mapDelegate: self)
-    }
-
-    // MARK: - GMUClusterManagerDelegate
-    
-    private func clusterManager(clusterManager: GMUClusterManager, didTapCluster cluster: GMUCluster) {
-        let newCamera = GMSCameraPosition.camera(withTarget: cluster.position,
-                                                           zoom: mapView.camera.zoom + 1)
-        let update = GMSCameraUpdate.setCamera(newCamera)
-        mapView.moveCamera(update)
+        setupUserTrackingButtonAndScaleView()
+        loadDataForMapRegionAndBikes()
     }
     
-    // MARK: - GMUMapViewDelegate
-    
-    func mapView(_ mapView: GMSMapView, didTap marker: GMSMarker) -> Bool {
-        if let poiItem = marker.userData as? POIItem {
-            NSLog("Did tap marker for cluster item \(poiItem.name)")
-        } else {
-            NSLog("Did tap a normal marker")
-        }
-        return false
-    }
-    
-    private func addClusterItems() {
-        
-        for location in locations {
-            let item = POIItem(position: CLLocationCoordinate2DMake(location.latitude, location.longitude), name: location.timestamp)
-            clusterManager.add(item)
-        }
-    }
 }

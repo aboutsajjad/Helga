@@ -8,7 +8,7 @@
 
 import UIKit
 import CoreLocation
-import GoogleMaps
+
 
 
 @UIApplicationMain
@@ -21,7 +21,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         
-        GMSServices.provideAPIKey("AIzaSyBbdCVcToaoBNjvfMcj4Ea4qfWkETLmRXM")
+        
         
         alocationManager = LocationManager()
         if ((launchOptions?[UIApplicationLaunchOptionsKey.location]) != nil) {
