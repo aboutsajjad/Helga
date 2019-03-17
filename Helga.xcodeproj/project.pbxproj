@@ -8,20 +8,72 @@
 
 /* Begin PBXBuildFile section */
 		C49FAB0D223EF7E60045BE0A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C49FAB0C223EF7E60045BE0A /* AppDelegate.swift */; };
-		C49FAB0F223EF7E60045BE0A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C49FAB0E223EF7E60045BE0A /* ViewController.swift */; };
-		C49FAB12223EF7E60045BE0A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C49FAB10223EF7E60045BE0A /* Main.storyboard */; };
 		C49FAB14223EF7E70045BE0A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C49FAB13223EF7E70045BE0A /* Assets.xcassets */; };
 		C49FAB17223EF7E70045BE0A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C49FAB15223EF7E70045BE0A /* LaunchScreen.storyboard */; };
+		C49FAB1F223F0B450045BE0A /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C49FAB1E223F0B450045BE0A /* LocationManager.swift */; };
+		C49FAB26223F0B7F0045BE0A /* MapCoordiantor.swift in Sources */ = {isa = PBXBuildFile; fileRef = C49FAB23223F0B7E0045BE0A /* MapCoordiantor.swift */; };
+		C49FAB27223F0B7F0045BE0A /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = C49FAB24223F0B7E0045BE0A /* AppCoordinator.swift */; };
+		C49FAB28223F0B7F0045BE0A /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = C49FAB25223F0B7F0045BE0A /* Coordinator.swift */; };
+		C49FAB2A223F0B9A0045BE0A /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C49FAB29223F0B9A0045BE0A /* MapViewController.swift */; };
+		C49FAB43223F0C410045BE0A /* Jumps.gpx in Resources */ = {isa = PBXBuildFile; fileRef = C49FAB2C223F0C3F0045BE0A /* Jumps.gpx */; };
+		C49FAB44223F0C410045BE0A /* gote.gpx in Resources */ = {isa = PBXBuildFile; fileRef = C49FAB2D223F0C3F0045BE0A /* gote.gpx */; };
+		C49FAB45223F0C410045BE0A /* olumpayeToMosala.gpx in Resources */ = {isa = PBXBuildFile; fileRef = C49FAB2E223F0C3F0045BE0A /* olumpayeToMosala.gpx */; };
+		C49FAB46223F0C410045BE0A /* computer.gpx in Resources */ = {isa = PBXBuildFile; fileRef = C49FAB2F223F0C3F0045BE0A /* computer.gpx */; };
+		C49FAB47223F0C410045BE0A /* olumpaye.gpx in Resources */ = {isa = PBXBuildFile; fileRef = C49FAB30223F0C3F0045BE0A /* olumpaye.gpx */; };
+		C49FAB48223F0C410045BE0A /* seyyedKhandan_to_brt.gpx in Resources */ = {isa = PBXBuildFile; fileRef = C49FAB31223F0C400045BE0A /* seyyedKhandan_to_brt.gpx */; };
+		C49FAB49223F0C410045BE0A /* brt_to_mShimi.gpx in Resources */ = {isa = PBXBuildFile; fileRef = C49FAB32223F0C400045BE0A /* brt_to_mShimi.gpx */; };
+		C49FAB4A223F0C410045BE0A /* Ghaem.gpx in Resources */ = {isa = PBXBuildFile; fileRef = C49FAB33223F0C400045BE0A /* Ghaem.gpx */; };
+		C49FAB4B223F0C410045BE0A /* farhangsara.gpx in Resources */ = {isa = PBXBuildFile; fileRef = C49FAB34223F0C400045BE0A /* farhangsara.gpx */; };
+		C49FAB4C223F0C410045BE0A /* parcham.gpx in Resources */ = {isa = PBXBuildFile; fileRef = C49FAB35223F0C400045BE0A /* parcham.gpx */; };
+		C49FAB4D223F0C410045BE0A /* slefyas.gpx in Resources */ = {isa = PBXBuildFile; fileRef = C49FAB36223F0C400045BE0A /* slefyas.gpx */; };
+		C49FAB4E223F0C410045BE0A /* brtTomosala.gpx in Resources */ = {isa = PBXBuildFile; fileRef = C49FAB37223F0C400045BE0A /* brtTomosala.gpx */; };
+		C49FAB4F223F0C410045BE0A /* mechanic.gpx in Resources */ = {isa = PBXBuildFile; fileRef = C49FAB38223F0C400045BE0A /* mechanic.gpx */; };
+		C49FAB50223F0C410045BE0A /* snapSeyedToMshimi.gpx in Resources */ = {isa = PBXBuildFile; fileRef = C49FAB39223F0C400045BE0A /* snapSeyedToMshimi.gpx */; };
+		C49FAB51223F0C410045BE0A /* dibaji_gote.gpx in Resources */ = {isa = PBXBuildFile; fileRef = C49FAB3A223F0C400045BE0A /* dibaji_gote.gpx */; };
+		C49FAB52223F0C410045BE0A /* syedkhandaTomShimi.gpx in Resources */ = {isa = PBXBuildFile; fileRef = C49FAB3B223F0C400045BE0A /* syedkhandaTomShimi.gpx */; };
+		C49FAB53223F0C410045BE0A /* mShimi.gpx in Resources */ = {isa = PBXBuildFile; fileRef = C49FAB3C223F0C400045BE0A /* mShimi.gpx */; };
+		C49FAB54223F0C410045BE0A /* City Run.gpx in Resources */ = {isa = PBXBuildFile; fileRef = C49FAB3D223F0C410045BE0A /* City Run.gpx */; };
+		C49FAB55223F0C410045BE0A /* khak_sefid.gpx in Resources */ = {isa = PBXBuildFile; fileRef = C49FAB3E223F0C410045BE0A /* khak_sefid.gpx */; };
+		C49FAB56223F0C410045BE0A /* metroMosala.gpx in Resources */ = {isa = PBXBuildFile; fileRef = C49FAB3F223F0C410045BE0A /* metroMosala.gpx */; };
+		C49FAB57223F0C410045BE0A /* Tajrish.gpx in Resources */ = {isa = PBXBuildFile; fileRef = C49FAB40223F0C410045BE0A /* Tajrish.gpx */; };
+		C49FAB58223F0C410045BE0A /* olumpayeToBrt.gpx in Resources */ = {isa = PBXBuildFile; fileRef = C49FAB41223F0C410045BE0A /* olumpayeToBrt.gpx */; };
+		C49FAB59223F0C410045BE0A /* metro_elmOsanat.gpx in Resources */ = {isa = PBXBuildFile; fileRef = C49FAB42223F0C410045BE0A /* metro_elmOsanat.gpx */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		C49FAB09223EF7E60045BE0A /* Helga.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Helga.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C49FAB0C223EF7E60045BE0A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		C49FAB0E223EF7E60045BE0A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		C49FAB11223EF7E60045BE0A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C49FAB13223EF7E70045BE0A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C49FAB16223EF7E70045BE0A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C49FAB18223EF7E70045BE0A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C49FAB1E223F0B450045BE0A /* LocationManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
+		C49FAB23223F0B7E0045BE0A /* MapCoordiantor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapCoordiantor.swift; sourceTree = "<group>"; };
+		C49FAB24223F0B7E0045BE0A /* AppCoordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppCoordinator.swift; sourceTree = "<group>"; };
+		C49FAB25223F0B7F0045BE0A /* Coordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
+		C49FAB29223F0B9A0045BE0A /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		C49FAB2C223F0C3F0045BE0A /* Jumps.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Jumps.gpx; sourceTree = "<group>"; };
+		C49FAB2D223F0C3F0045BE0A /* gote.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = gote.gpx; sourceTree = "<group>"; };
+		C49FAB2E223F0C3F0045BE0A /* olumpayeToMosala.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = olumpayeToMosala.gpx; sourceTree = "<group>"; };
+		C49FAB2F223F0C3F0045BE0A /* computer.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = computer.gpx; sourceTree = "<group>"; };
+		C49FAB30223F0C3F0045BE0A /* olumpaye.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = olumpaye.gpx; sourceTree = "<group>"; };
+		C49FAB31223F0C400045BE0A /* seyyedKhandan_to_brt.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = seyyedKhandan_to_brt.gpx; sourceTree = "<group>"; };
+		C49FAB32223F0C400045BE0A /* brt_to_mShimi.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = brt_to_mShimi.gpx; sourceTree = "<group>"; };
+		C49FAB33223F0C400045BE0A /* Ghaem.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Ghaem.gpx; sourceTree = "<group>"; };
+		C49FAB34223F0C400045BE0A /* farhangsara.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = farhangsara.gpx; sourceTree = "<group>"; };
+		C49FAB35223F0C400045BE0A /* parcham.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = parcham.gpx; sourceTree = "<group>"; };
+		C49FAB36223F0C400045BE0A /* slefyas.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = slefyas.gpx; sourceTree = "<group>"; };
+		C49FAB37223F0C400045BE0A /* brtTomosala.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = brtTomosala.gpx; sourceTree = "<group>"; };
+		C49FAB38223F0C400045BE0A /* mechanic.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = mechanic.gpx; sourceTree = "<group>"; };
+		C49FAB39223F0C400045BE0A /* snapSeyedToMshimi.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = snapSeyedToMshimi.gpx; sourceTree = "<group>"; };
+		C49FAB3A223F0C400045BE0A /* dibaji_gote.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = dibaji_gote.gpx; sourceTree = "<group>"; };
+		C49FAB3B223F0C400045BE0A /* syedkhandaTomShimi.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = syedkhandaTomShimi.gpx; sourceTree = "<group>"; };
+		C49FAB3C223F0C400045BE0A /* mShimi.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = mShimi.gpx; sourceTree = "<group>"; };
+		C49FAB3D223F0C410045BE0A /* City Run.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "City Run.gpx"; sourceTree = "<group>"; };
+		C49FAB3E223F0C410045BE0A /* khak_sefid.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = khak_sefid.gpx; sourceTree = "<group>"; };
+		C49FAB3F223F0C410045BE0A /* metroMosala.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = metroMosala.gpx; sourceTree = "<group>"; };
+		C49FAB40223F0C410045BE0A /* Tajrish.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Tajrish.gpx; sourceTree = "<group>"; };
+		C49FAB41223F0C410045BE0A /* olumpayeToBrt.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = olumpayeToBrt.gpx; sourceTree = "<group>"; };
+		C49FAB42223F0C410045BE0A /* metro_elmOsanat.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = metro_elmOsanat.gpx; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +106,56 @@
 		C49FAB0B223EF7E60045BE0A /* Helga */ = {
 			isa = PBXGroup;
 			children = (
+				C49FAB2B223F0C330045BE0A /* GPX */,
+				C49FAB22223F0B740045BE0A /* Coordinator */,
 				C49FAB0C223EF7E60045BE0A /* AppDelegate.swift */,
-				C49FAB0E223EF7E60045BE0A /* ViewController.swift */,
-				C49FAB10223EF7E60045BE0A /* Main.storyboard */,
+				C49FAB1E223F0B450045BE0A /* LocationManager.swift */,
+				C49FAB29223F0B9A0045BE0A /* MapViewController.swift */,
 				C49FAB13223EF7E70045BE0A /* Assets.xcassets */,
 				C49FAB15223EF7E70045BE0A /* LaunchScreen.storyboard */,
 				C49FAB18223EF7E70045BE0A /* Info.plist */,
 			);
 			path = Helga;
+			sourceTree = "<group>";
+		};
+		C49FAB22223F0B740045BE0A /* Coordinator */ = {
+			isa = PBXGroup;
+			children = (
+				C49FAB24223F0B7E0045BE0A /* AppCoordinator.swift */,
+				C49FAB25223F0B7F0045BE0A /* Coordinator.swift */,
+				C49FAB23223F0B7E0045BE0A /* MapCoordiantor.swift */,
+			);
+			path = Coordinator;
+			sourceTree = "<group>";
+		};
+		C49FAB2B223F0C330045BE0A /* GPX */ = {
+			isa = PBXGroup;
+			children = (
+				C49FAB32223F0C400045BE0A /* brt_to_mShimi.gpx */,
+				C49FAB37223F0C400045BE0A /* brtTomosala.gpx */,
+				C49FAB3D223F0C410045BE0A /* City Run.gpx */,
+				C49FAB2F223F0C3F0045BE0A /* computer.gpx */,
+				C49FAB3A223F0C400045BE0A /* dibaji_gote.gpx */,
+				C49FAB34223F0C400045BE0A /* farhangsara.gpx */,
+				C49FAB33223F0C400045BE0A /* Ghaem.gpx */,
+				C49FAB2D223F0C3F0045BE0A /* gote.gpx */,
+				C49FAB2C223F0C3F0045BE0A /* Jumps.gpx */,
+				C49FAB3E223F0C410045BE0A /* khak_sefid.gpx */,
+				C49FAB38223F0C400045BE0A /* mechanic.gpx */,
+				C49FAB42223F0C410045BE0A /* metro_elmOsanat.gpx */,
+				C49FAB3F223F0C410045BE0A /* metroMosala.gpx */,
+				C49FAB3C223F0C400045BE0A /* mShimi.gpx */,
+				C49FAB30223F0C3F0045BE0A /* olumpaye.gpx */,
+				C49FAB41223F0C410045BE0A /* olumpayeToBrt.gpx */,
+				C49FAB2E223F0C3F0045BE0A /* olumpayeToMosala.gpx */,
+				C49FAB35223F0C400045BE0A /* parcham.gpx */,
+				C49FAB31223F0C400045BE0A /* seyyedKhandan_to_brt.gpx */,
+				C49FAB36223F0C400045BE0A /* slefyas.gpx */,
+				C49FAB39223F0C400045BE0A /* snapSeyedToMshimi.gpx */,
+				C49FAB3B223F0C400045BE0A /* syedkhandaTomShimi.gpx */,
+				C49FAB40223F0C410045BE0A /* Tajrish.gpx */,
+			);
+			path = GPX;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -96,6 +190,11 @@
 				TargetAttributes = {
 					C49FAB08223EF7E60045BE0A = {
 						CreatedOnToolsVersion = 10.1;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -122,9 +221,31 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C49FAB56223F0C410045BE0A /* metroMosala.gpx in Resources */,
+				C49FAB44223F0C410045BE0A /* gote.gpx in Resources */,
+				C49FAB53223F0C410045BE0A /* mShimi.gpx in Resources */,
+				C49FAB4D223F0C410045BE0A /* slefyas.gpx in Resources */,
+				C49FAB49223F0C410045BE0A /* brt_to_mShimi.gpx in Resources */,
+				C49FAB4A223F0C410045BE0A /* Ghaem.gpx in Resources */,
+				C49FAB4B223F0C410045BE0A /* farhangsara.gpx in Resources */,
+				C49FAB4C223F0C410045BE0A /* parcham.gpx in Resources */,
+				C49FAB51223F0C410045BE0A /* dibaji_gote.gpx in Resources */,
+				C49FAB57223F0C410045BE0A /* Tajrish.gpx in Resources */,
+				C49FAB45223F0C410045BE0A /* olumpayeToMosala.gpx in Resources */,
+				C49FAB47223F0C410045BE0A /* olumpaye.gpx in Resources */,
+				C49FAB52223F0C410045BE0A /* syedkhandaTomShimi.gpx in Resources */,
+				C49FAB58223F0C410045BE0A /* olumpayeToBrt.gpx in Resources */,
+				C49FAB54223F0C410045BE0A /* City Run.gpx in Resources */,
+				C49FAB50223F0C410045BE0A /* snapSeyedToMshimi.gpx in Resources */,
+				C49FAB46223F0C410045BE0A /* computer.gpx in Resources */,
 				C49FAB17223EF7E70045BE0A /* LaunchScreen.storyboard in Resources */,
+				C49FAB4F223F0C410045BE0A /* mechanic.gpx in Resources */,
+				C49FAB43223F0C410045BE0A /* Jumps.gpx in Resources */,
+				C49FAB59223F0C410045BE0A /* metro_elmOsanat.gpx in Resources */,
+				C49FAB48223F0C410045BE0A /* seyyedKhandan_to_brt.gpx in Resources */,
+				C49FAB4E223F0C410045BE0A /* brtTomosala.gpx in Resources */,
 				C49FAB14223EF7E70045BE0A /* Assets.xcassets in Resources */,
-				C49FAB12223EF7E60045BE0A /* Main.storyboard in Resources */,
+				C49FAB55223F0C410045BE0A /* khak_sefid.gpx in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -135,22 +256,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C49FAB0F223EF7E60045BE0A /* ViewController.swift in Sources */,
+				C49FAB26223F0B7F0045BE0A /* MapCoordiantor.swift in Sources */,
+				C49FAB28223F0B7F0045BE0A /* Coordinator.swift in Sources */,
+				C49FAB27223F0B7F0045BE0A /* AppCoordinator.swift in Sources */,
 				C49FAB0D223EF7E60045BE0A /* AppDelegate.swift in Sources */,
+				C49FAB1F223F0B450045BE0A /* LocationManager.swift in Sources */,
+				C49FAB2A223F0B9A0045BE0A /* MapViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		C49FAB10223EF7E60045BE0A /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				C49FAB11223EF7E60045BE0A /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		C49FAB15223EF7E70045BE0A /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -283,12 +400,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5QV3HL5JSK;
 				INFOPLIST_FILE = Helga/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = co.mabato.Helga;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mabato.Helga;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -300,12 +418,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5QV3HL5JSK;
 				INFOPLIST_FILE = Helga/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = co.mabato.Helga;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mabato.Helga;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";

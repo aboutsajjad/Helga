@@ -13,9 +13,18 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
 
+    var locationManager: LocationManager?
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
+        let window = UIWindow(frame: UIScreen.main.bounds)
+        self.window = window
+        let appCoordinator = AppCoordinator(window: window)
+        appCoordinator.start()
+        
+        locationManager = LocationManager()
+        if ((launchOptions?[UIApplication.LaunchOptionsKey.location]) != nil) {
+            locationManager?.startMonitoring()
+        }
         return true
     }
 

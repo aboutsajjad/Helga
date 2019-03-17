@@ -1,0 +1,372 @@
+<?xml version="1.0"?>
+<gpx version="1.1" creator="Xcode">
+    
+    <!--
+     Provide one or more waypoints containing a latitude/longitude pair. If you provide one
+     waypoint, Xcode will simulate that specific location. If you provide multiple waypoints,
+     Xcode will simulate a route visiting each waypoint.
+     -->
+    <wpt lat="35.7416605" lon="51.4508095"></wpt>
+    <wpt lat="35.7w416746" lon="51.450812"></wpt>
+    
+    <wpt lat="35.74158" lon="51.45164">
+        
+    </wpt>
+    <wpt lat="35.74157" lon="51.4517">
+        
+    </wpt>
+    <wpt lat="35.74156" lon="51.45179">
+        
+    </wpt>
+    <wpt lat="35.74143" lon="51.45322">
+        
+    </wpt>
+    <wpt lat="35.74117" lon="51.45568">
+        
+    </wpt>
+    <wpt lat="35.74114" lon="51.45597">
+        
+    </wpt>
+    <wpt lat="35.74108" lon="51.45689">
+        
+    </wpt>
+    <wpt lat="35.74104" lon="51.45721">
+        
+    </wpt>
+    <wpt lat="35.74102" lon="51.45738">
+        
+    </wpt>
+    <wpt lat="35.74102" lon="51.45771">
+        
+    </wpt>
+    <wpt lat="35.74102" lon="51.45797">
+        
+    </wpt>
+    <wpt lat="35.74103" lon="51.45822">
+        
+    </wpt>
+    <wpt lat="35.74106" lon="51.45855">
+        
+    </wpt>
+    <wpt lat="35.7411" lon="51.45888">
+        
+    </wpt>
+    <wpt lat="35.74116" lon="51.45937">
+        
+    </wpt>
+    <wpt lat="35.74119" lon="51.4597">
+        
+    </wpt>
+    <wpt lat="35.74122" lon="51.46003">
+        
+    </wpt>
+    <wpt lat="35.74122" lon="51.4603">
+        
+    </wpt>
+    <wpt lat="35.74121" lon="51.46062">
+        
+    </wpt>
+    <wpt lat="35.74118" lon="51.46093">
+        
+    </wpt>
+    <wpt lat="35.74113" lon="51.46122">
+        
+    </wpt>
+    <wpt lat="35.74109" lon="51.46139">
+        
+    </wpt>
+    <wpt lat="35.74099" lon="51.46178">
+        
+    </wpt>
+    <wpt lat="35.74086" lon="51.46218">
+        
+    </wpt>
+    <wpt lat="35.74071" lon="51.46267">
+        
+    </wpt>
+    <wpt lat="35.74057" lon="51.46315">
+        
+    </wpt>
+    <wpt lat="35.74051" lon="51.46342">
+        
+    </wpt>
+    <wpt lat="35.74047" lon="51.46368">
+        
+    </wpt>
+    <wpt lat="35.74042" lon="51.46398">
+        
+    </wpt>
+    <wpt lat="35.74041" lon="51.4642">
+        
+    </wpt>
+    <wpt lat="35.7404" lon="51.46481">
+        
+    </wpt>
+    <wpt lat="35.7404" lon="51.46566">
+        
+    </wpt>
+    <wpt lat="35.74038" lon="51.4659">
+        
+    </wpt>
+    <wpt lat="35.74034" lon="51.46624">
+        
+    </wpt>
+    <wpt lat="35.74027" lon="51.46672">
+        
+    </wpt>
+    <wpt lat="35.73997" lon="51.46881">
+        
+    </wpt>
+    <wpt lat="35.73979" lon="51.47004">
+        
+    </wpt>
+    <wpt lat="35.73968" lon="51.47105">
+        
+    </wpt>
+    <wpt lat="35.73962" lon="51.47141">
+        
+    </wpt>
+    <wpt lat="35.73941" lon="51.4728">
+        
+    </wpt>
+    <wpt lat="35.73926" lon="51.47368">
+        
+    </wpt>
+    <wpt lat="35.73911" lon="51.47437">
+        
+    </wpt>
+    <wpt lat="35.73896" lon="51.47505">
+        
+    </wpt>
+    <wpt lat="35.73889" lon="51.47534">
+        
+    </wpt>
+    <wpt lat="35.73877" lon="51.4758">
+        
+    </wpt>
+    <wpt lat="35.73864" lon="51.4765">
+        
+    </wpt>
+    <wpt lat="35.73857" lon="51.47685">
+        
+    </wpt>
+    <wpt lat="35.7383" lon="51.47832">
+        
+    </wpt>
+    <wpt lat="35.73817" lon="51.47919">
+        
+    </wpt>
+    <wpt lat="35.73803" lon="51.47981">
+        
+    </wpt>
+    <wpt lat="35.73797" lon="51.48013">
+        
+    </wpt>
+    <wpt lat="35.73786" lon="51.48072">
+        
+    </wpt>
+    <wpt lat="35.73779" lon="51.48118">
+        
+    </wpt>
+    <wpt lat="35.7376" lon="51.48235">
+        
+    </wpt>
+    <wpt lat="35.73751" lon="51.48291">
+        
+    </wpt>
+    <wpt lat="35.73742" lon="51.48347">
+        
+    </wpt>
+    <wpt lat="35.7374" lon="51.48361">
+        
+    </wpt>
+    <wpt lat="35.7373" lon="51.48421">
+        
+    </wpt>
+    <wpt lat="35.7372969" lon="51.4842135">
+        
+    </wpt>
+    <wpt lat="35.73716" lon="51.48458">
+        
+    </wpt>
+    <wpt lat="35.73707" lon="51.48499">
+        
+    </wpt>
+    <wpt lat="35.73669" lon="51.48729">
+        
+    </wpt>
+    <wpt lat="35.7366901" lon="51.4872853">
+        
+    </wpt>
+    <wpt lat="35.73677" lon="51.48727">
+        
+    </wpt>
+    <wpt lat="35.73683" lon="51.48728">
+        
+    </wpt>
+    <wpt lat="35.73688" lon="51.4873">
+        
+    </wpt>
+    <wpt lat="35.73694" lon="51.48732">
+        
+    </wpt>
+    <wpt lat="35.73699" lon="51.48735">
+        
+    </wpt>
+    <wpt lat="35.7371" lon="51.48745">
+        
+    </wpt>
+    <wpt lat="35.73713" lon="51.48748">
+        
+    </wpt>
+    <wpt lat="35.73715" lon="51.48753">
+        
+    </wpt>
+    <wpt lat="35.73716" lon="51.48758">
+        
+    </wpt>
+    <wpt lat="35.73718" lon="51.48765">
+        
+    </wpt>
+    <wpt lat="35.73719" lon="51.48773">
+        
+    </wpt>
+    <wpt lat="35.73718" lon="51.48803">
+        
+    </wpt>
+    <wpt lat="35.73713" lon="51.48831">
+        
+    </wpt>
+    <wpt lat="35.73709" lon="51.48849">
+        
+    </wpt>
+    <wpt lat="35.73704" lon="51.48862">
+        
+    </wpt>
+    <wpt lat="35.73718" lon="51.48881">
+        
+    </wpt>
+    <wpt lat="35.7374" lon="51.48905">
+        
+    </wpt>
+    <wpt lat="35.73755" lon="51.48919">
+        
+    </wpt>
+    <wpt lat="35.73787" lon="51.48954">
+        
+    </wpt>
+    <wpt lat="35.73862" lon="51.49042">
+        
+    </wpt>
+    <wpt lat="35.73929" lon="51.49123">
+        
+    </wpt>
+    <wpt lat="35.73987" lon="51.49189">
+        
+    </wpt>
+    <wpt lat="35.73991" lon="51.49194">
+        
+    </wpt>
+    <wpt lat="35.73996" lon="51.492">
+        
+    </wpt>
+    <wpt lat="35.74022" lon="51.49232">
+        
+    </wpt>
+    <wpt lat="35.74048" lon="51.49264">
+        
+    </wpt>
+    <wpt lat="35.74069" lon="51.4929">
+        
+    </wpt>
+    <wpt lat="35.7406932" lon="51.4929011">
+        
+    </wpt>
+    <wpt lat="35.74069" lon="51.49292">
+        
+    </wpt>
+    <wpt lat="35.7407" lon="51.49294">
+        
+    </wpt>
+    <wpt lat="35.7407" lon="51.49297">
+        
+    </wpt>
+    <wpt lat="35.74071" lon="51.49299">
+        
+    </wpt>
+    <wpt lat="35.74072" lon="51.49302">
+        
+    </wpt>
+    <wpt lat="35.74074" lon="51.49305">
+        
+    </wpt>
+    <wpt lat="35.74082" lon="51.49313">
+        
+    </wpt>
+    <wpt lat="35.74102" lon="51.49337">
+        
+    </wpt>
+    <wpt lat="35.7421" lon="51.49462">
+        
+    </wpt>
+    <wpt lat="35.74297" lon="51.49565">
+        
+    </wpt>
+    <wpt lat="35.7433" lon="51.49604">
+        
+    </wpt>
+    <wpt lat="35.7433023" lon="51.4960434">
+        
+    </wpt>
+    <wpt lat="35.74318" lon="51.49695">
+        
+    </wpt>
+    <wpt lat="35.74312" lon="51.49735">
+        
+    </wpt>
+    <wpt lat="35.74305" lon="51.49813">
+        
+    </wpt>
+    <wpt lat="35.74282" lon="51.49983">
+        
+    </wpt>
+    <wpt lat="35.74253" lon="51.502">
+        
+    </wpt>
+    <wpt lat="35.7425264" lon="51.5020038">
+        
+    </wpt>
+    <wpt lat="35.74202" lon="51.50216">
+        
+    </wpt>
+    <wpt lat="35.74156" lon="51.50229">
+        
+    </wpt>
+    <wpt lat="35.74108" lon="51.50244">
+        
+    </wpt>
+    <wpt lat="35.74062" lon="51.50256">
+        
+    </wpt>
+    <wpt lat="35.74016" lon="51.5027">
+        
+    </wpt>
+    <wpt lat="35.73993" lon="51.50278">
+        
+    </wpt>
+    <wpt lat="35.7399262" lon="51.502777">
+        
+    </wpt>
+    <wpt lat="35.73992" lon="51.50283">
+        
+    </wpt>
+    <wpt lat="35.7397" lon="51.50515">
+        
+    </wpt>
+    <wpt lat="35.73968" lon="51.50542">
+        
+    </wpt>
+    <wpt lat="35.7396766" lon="51.5054227">
+        
+    </wpt>
+</gpx>
