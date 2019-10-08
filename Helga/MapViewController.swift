@@ -40,7 +40,7 @@ class MapViewController: UIViewController {
 }
 extension MapViewController: LocationManagerDelegate {
     func locationManager(_ manager: CLLocationManager, didUpdateLocations locations: [CLLocation]) {
-        for location in locations {
+        for _ in locations {
         }
     }
 }
